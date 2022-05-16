@@ -27,7 +27,7 @@ function tobin(str)
     local cur = 0
     local curr = str:sub(i, i)
     for k, v in ipairs(chr) do
-      if string.match(v, curr, 0) then
+      if string.find(v, curr, 0, true) then
         local curst = string.find(v, curr, 0, true)
         table.insert(tbl, curst + start + add)
         goto continue
