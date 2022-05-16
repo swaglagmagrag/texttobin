@@ -39,4 +39,4 @@ function tobin(str)
   end
   return tobin2(tbl)
 end
-/*print(tobin())*/ -- put whatever you want to print in this area
+--print(tobin()) put whatever you want to print in this area
